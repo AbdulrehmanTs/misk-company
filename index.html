@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./tailwind.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+<div class="overflow-hidden	"> 
+  <!-- Navigation -->
+     <!-- <div class="container mx-auto absolute inset-x-0 z-10 pt-6 flex flex-row items-center justify-between px-10 ">
+         <div>
+             <img src="https://i.ibb.co/B3s72hL/logo-1.png" alt="Company Logo" role="img" />
+         </div>
+         <div class="sm:inline-flex hidden">
+             <ul class="flex space-x-16 flex-row items-center " >
+                 <li class="text-base font-medium leading-none sm:text-center text-gray-900   hover:underline" ><a  href="javascript:void(0)" >Home</a></li>
+                 <li class="text-base font-medium leading-none sm:text-center text-gray-900   hover:underline" ><a  href="javascript:void(0)" >About</a></li>
+                 <li class="text-base font-medium leading-none sm:text-center text-gray-900    hover:underline" ><a  href="javascript:void(0)" >Projects</a></li>
+             </ul>
+         </div>
+         <div class="flex items-center sm:hidden relative" onclick="dropdownHandler(this)">
+             <button id="menu" class="dark:bg-white text-gray-800 text-2xl focus:outline-none focus:ring-2 focus:ring-gray-600 rounded" onclick="dropdownHandler(this)">
+                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/hero_2_Svg1.svg" alt="menu" />
+             </button>
+             <ul class="p-2 w-40 border-r bg-white absolute rounded z-20 top-10 right-0 shadow hidden">
+                 <li class="cursor-pointer text-gray-600 dark:text-gray-200 text-sm leading-3 tracking-normal py-2 hover:text-indigo-400 focus:text-indigo-700 focus:outline-none">
+                     <div class="flex items-center">
+                         <a href="javascript:void(0)" class="ml-2">Home</a>
+                     </div>
+                 </li>
+                 <li class="cursor-pointer text-gray-600 dark:text-gray-200 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex items-center">
+                    
+                     <a href="javascript:void(0)" class="ml-2">About</a>
+                 </li>
+                 <li class="cursor-pointer text-gray-600 dark:text-gray-200 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none bg-white">
+                    
+                     <a href="javascript:void(0)" class="ml-2">Projects</a href="javascript:void(0)">
+                 </li>
+             </ul>
+         </div>
+     </div> -->
+      <!-- Navigation -->
+      <!-- Hero content -->
+      <section class="relative pb-8 h-screen ">
+        <div>
+            <img src="/muslim-pilgrims.jpg"
+                class="absolute top-0 bottom-0 left-0 right-0 object-cover w-full h-full" alt="">
+            <div class="absolute top-0 bottom-0 left-0 right-0 flex items-center holder bg-gray-900/75">
+                <div class="z-10 max-w-5xl px-4 mx-auto text-center">
+                    <img class="mx-auto" src="/شركة_مسك_للسياحة-removebg-preview (1).png" alt="logo" />
+                    <p class="my-8 text-xl max-w-md text-[#d5b373] lg:text-2xl">
+                      شركة سياحة وفنادق متميزة في المملكة العربية السعودية، تقدم تجارب سفر فاخرة وإقامة مريحة في أماكن سياحية مثيرة، .
+                    </p>
+                    <a class="block px-5 py-3 text-sm font-semibold text-center text-[#d5b373] transition duration-200 bg-[#1b5c53] rounded md:inline-block"
+                        href="#"> اتصل بنا </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <div class="grid grid-cols-1 lg:grid-cols-4  relative mt-0 lg:-mt-[90px]  z-10  rounded">
+        <div class="w-full p-8 mb-10 text-center transition-all bg-blue-900 shadow lg:mb-0">
+            <div class="inline-block p-4 mb-6 -mt-16 bg-gray-100 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="w-8 h-8 text-blue-700 bi bi-people" viewBox="0 0 16 16">
+                    <path
+                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                </svg>
+            </div>
+            <h2 class="mb-4 text-2xl font-semibold text-gray-100 dark:text-white"> Certified Teachers</h2>
+            <p class="text-base text-gray-300 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate similique,
+                iure minus sed fugit obcaecati minima quam reiciendis dicta!
+            </p>
+        </div>
+        <div class="w-full p-8 mb-10 text-center transition-all bg-red-900 shadow lg:mb-0 ">
+            <div class="inline-block p-4 mb-6 -mt-16 bg-gray-100 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="w-8 h-8 text-red-700 bi bi-book" viewBox="0 0 16 16">
+                    <path
+                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                </svg>
+            </div>
+            <h2 class="mb-4 text-2xl font-semibold text-gray-100 dark:text-white"> Special Education</h2>
+            <p class="text-base text-gray-300 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate similique,
+                iure minus sed fugit obcaecati minima quam reiciendis dicta!
+            </p>
+        </div>
+        <div class="w-full p-8 mb-10 text-center transition-all bg-blue-900 shadow lg:mb-0 ">
+            <div class="inline-block p-4 mb-6 -mt-16 bg-gray-100 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="w-8 h-8 text-blue-700 bi bi-hdd-rack" viewBox="0 0 16 16">
+                    <path
+                        d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm2 7a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
+                    <path
+                        d="M2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h1v2H2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2h-1V7h1a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm0 7v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-3-4v2H4V7h8z" />
+                </svg>
+            </div>
+            <h2 class="mb-4 text-2xl font-semibold text-gray-100 dark:text-white"> Book & Library</h2>
+            <p class="text-base text-gray-300 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate similique,
+                iure minus sed fugit obcaecati minima quam reiciendis dicta!
+            </p>
+        </div>
+        <div class="w-full p-8 mb-10 text-center transition-all bg-red-900 shadow lg:mb-0 ">
+            <div class="inline-block p-4 mb-6 -mt-16 bg-gray-100 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="w-8 h-8 text-red-700 bi bi-mortarboard " viewBox="0 0 16 16">
+                    <path
+                        d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                    <path
+                        d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                </svg>
+            </div>
+            <h2 class="mb-4 text-2xl font-semibold text-gray-100 dark:text-white"> Certification </h2>
+            <p class="text-base text-gray-300 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cupiditate similique,
+                iure minus sed fugit obcaecati minima quam reiciendis dicta!
+            </p>
+        </div>
+    </div> -->
+     <!-- Hero content end -->
+ </div>
+
+
+</body>
+</html>
